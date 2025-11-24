@@ -107,7 +107,11 @@ graph TD
 A["Start Process"] --> B["Decision?"]
 
 OUTPUT RULES:
-- Do NOT output markdown formatting (no backticks).
+- Output the result inside a standard Markdown code block with the 'mermaid' tag.
+- Example format:
+  ```mermaid
+  graph TD
+  A --> B
 - Do NOT output "Here is your graph".
 - Do NOT output Python code (no `graph =`).
 - Output PURE textual Mermaid code.
@@ -142,7 +146,7 @@ SECTION 3: System Execution Flow
 Convert the ARROW MAP into descriptive, numbered steps, explaining the sequence of events (Startup, Adding Stream, Processing, Alerting, Shutdown).
 
 SECTION 4: Architecture Diagram
-Include the Mermaid UML Diagram to visually represent the system's architecture and flow.
+Include the Mermaid UML Diagram exactly as provided.
 
 SECTION 5: Conclusion
 Summarize the key functionalities and any important notes about the repository.
