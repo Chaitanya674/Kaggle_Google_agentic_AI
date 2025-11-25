@@ -69,7 +69,7 @@ AI drafts it; You own it.
 
 Codeflow runs on a multi-agent orchestration architecture powered by **Google Gemini 2.5**.
 
-<img width="695" height="864" alt="Screenshot from 2025-11-26 00-29-54" src="https://github.com/user-attachments/assets/e83fc685-773f-423e-8b99-576e4196008c" />
+<img width="786" height="818" alt="Screenshot from 2025-11-26 01-49-28" src="https://github.com/user-attachments/assets/9ea2cf27-cab4-4aae-aadd-5e5974a98095" />
 
 
 ### The Agent Squad
@@ -182,6 +182,8 @@ CodeFlow is built as an ADK application. You can run it using the `adk` CLI.
 -   `tools/prompts.py`: Contains the system instructions and prompts for each agent.
 -   `agents/`: (Directory for additional agent modules).
 
-## 🤝 Contributing
+## 🤝 Troubleshooting Tips:
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+    -   If the bot get stuch or session issues try running in incognito tab. 
+    -   If provided approval and bot is not moving forward try creating new session.
+    -   The APPROVAL format should be like : {"confirmed":true,"payload":{"approve":"APPROVE / REJECTED","title":"<Tile-of-your-comfluence-page>","space_key":"ENG","feedback":""}}.
